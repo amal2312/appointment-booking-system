@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Database
+*.db
+
+# Vector store
+data/vectorstore/
+
+# OS
+.DS_Store
