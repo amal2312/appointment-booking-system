@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import streamlit as st
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from models.llm import get_chatgroq_model
