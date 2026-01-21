@@ -427,17 +427,9 @@ This project demonstrates:
  **Environment & Security** - Safe credential management  
 
 
----
-
-## 📞 Troubleshooting
-
-### Issue: "GROQ_API_KEY environment variable not set"
-```powershell
-# Set the environment variable
-$env:GROQ_API_KEY = "your_api_key"
 ```
 
-### Email Confirmation
+## Email Confirmation
 
 
 After a successful appointment booking, the system sends a confirmation email to the user using Brevo (Sendinblue).
@@ -447,17 +439,3 @@ Booking remains confirmed even if email delivery fails
 Errors are handled gracefully without crashing the app
 Email credentials are stored securely using Streamlit secrets and are excluded from version control.
 ```
-
-### Issue: Port 8501 already in use
-```powershell
-python -m streamlit run app/main.py --server.port 8502
-```
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
-
